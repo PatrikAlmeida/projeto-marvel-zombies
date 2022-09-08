@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+ @font-face {
+    font-family: 'Sectar';
+    src: url('../fontes/Sectar.otf') format('opentype');
+    font-weight: bold;
+ }
+
+:root {
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-sectar: 'Sectar', Verdana, Helvetica, sans-serif;
+    
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    max-width: 300px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.959);
+    padding: 10px;
+    border-radius: 0px 0px 3px 3px;
+    font-family: var(--font-padrao);
+}
+
+nav a {
+    color: #FCFA9C;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: .5s;
+}
+
+nav a:hover {
+    background-color: rgb(111, 189, 111);
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-family: var(--font-padrao);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+
+}
+
+main h2 {
+    padding: 5px;
+    background-color: black;
+    color: lightgreen;
+    text-align: left;
+    text-indent: .2em;
+    font-family: var(--font-sectar);
+}
+
+main p {
+    text-align: justify;
+    font-size: 1em;
+    line-height: 2em;
+    text-indent: 2em;
+}
+
+main a {
+    text-decoration: none;
+    background-color: lightgreen;
+    color: black;
+    padding: 3px;
+}
+
+main img {
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+}
+
+footer {
+    background-color: black;
+    padding: 5px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-family: var(--font-padrao);
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
